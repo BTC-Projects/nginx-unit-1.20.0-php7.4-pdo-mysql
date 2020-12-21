@@ -1,3 +1,23 @@
+# BTC
+
+The only difference between the original and forked version, addition of following extensions:
+
+- php7.4-curl
+- php7.4-gd
+- php7.4-mbstring
+
+To build docker image use
+
+```shell
+./build-doker.sh
+```
+
+To publich docker image into AWS ECR (public)
+
+```shell
+./publish-docker.sh
+```
+
 # NGINX Unit 1.20.0 with PHP7.4 and the newest PDO MYSQL support
 
 Source of Docker custom built of NGINX Unit with PHP7.4 and PDO MYSQL support based on nginx/unit:1.20.0-minimal official image.
